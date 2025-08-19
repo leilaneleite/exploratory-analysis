@@ -1,0 +1,8 @@
+import pandas as pd
+import plotly.express as px
+
+# Carregar o dataset
+df = pd.read_csv("../vehicles_us.csv")
+
+# Ver as 5 primeiras linhas
+df.head(
