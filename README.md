@@ -35,3 +35,7 @@ exploratory-analysis/
 
 ## 👩‍💻 Autora
 Projeto desenvolvido por **Leilane Leite** no curso de Análise de Dados da TripleTen.
+
+## Executando no Render
+Este projeto foi configurado para ser executado na plataforma Render.  
+Certifique-se de que o arquivo `.streamlit/config.toml` está presente no repositório antes do deploy.
