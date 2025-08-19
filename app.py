@@ -117,12 +117,15 @@ with tab1:
 
 with tab2:
     st.subheader("Preço vs. ano do carro")
-    if {"model_year","price"}.issubset(df_viz.columns):
-        fig = px.scatter(df_viz, x="model_year", y="price", opacity=0.5, title="Preço vs. Ano")
-        st.plotly_chart(fig, use_container_width=True)
+
+    if {"model_year", "price"}.issubset(df_viz.columns):
+        scatter_btn = st.button("Criar gráfico de dispersão (Ano vs Preço)")
+        if scatter_btn:
+            fig = px.scatter(df_viz, x="model_year", y="price", opacity=0.5, title="Preço vs. Ano")
+            st.plotly_chart(fig, use_container_width=True)
     else:
         st.info("Colunas 'model_year' e/ou 'price' não encontradas.")
-
+        
 with tab3:
     st.subheader("Preço vs. quilometragem")
     if {"odometer","price"}.issubset(df_viz.columns):
