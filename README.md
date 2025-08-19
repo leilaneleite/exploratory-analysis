@@ -11,9 +11,9 @@ O objetivo é visualizar padrões de preço, quilometragem, ano de fabricação 
 - Gráficos interativos construídos com **Plotly Express**  
 - Aplicação web construída com **Streamlit**  
 
-## 🚀 Deploy
+🚀 Deploy  
 O app está disponível online:  
-👉 [Clique aqui para acessar o aplicativo](https://exploratory-analysis-vehicles.streamlit.app)
+[**Clique aqui para acessar o aplicativo**](https://exploratory-analysis.onrender.com)
 
 ## 🖼️ Exemplo da aplicação  
 
