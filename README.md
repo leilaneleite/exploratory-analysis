@@ -16,7 +16,7 @@ O app está disponível online:
 👉 [Clique aqui para acessar o aplicativo](https://exploratory-analysis-vehicles.streamlit.app)
 
 ## 🖼️ Exemplo da aplicação
-![Interface do App](images/interface.png)  
+![Interface do App](imagens/interface.png)  
 
 ## 📂 Estrutura do projeto
 exploratory-analysis/
